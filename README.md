@@ -1,2 +1,2 @@
 # Count_Input_Characters
-counting app 
+counting  characters in field and fill the border
