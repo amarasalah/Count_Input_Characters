@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+div{
+ width: 300px;
+ margin: 20px auto;
+
+}
+input[type = text]{
+    padding : 10px 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #7e7e7e;
+    background-color: #eee;
+    outline: none;
+
+}
+.line{
+    width: 0px;
+    height: 2px;
+    background-color: aqua;
+    display: block;
+    position: relative;
+    top: -2px;
+    transition: 0.4s;
+
+
+}
+.count{
+    display: block;
+    padding: 5px;
+    text-align: right;
+}
+
+.end{
+    color: red;
+    font-weight: bold;
+}
